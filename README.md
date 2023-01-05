@@ -16,7 +16,7 @@ Installing Python and dependencies
 - Scikit-learn
 
 ## Dataset
-The dataset includes 3495 images combined from selected data from [`Trashnet`](https://github.com/garythung/trashnet) and `Waste-set` (build by our own):
+The dataset includes 3495 images combined from selected data from [`Trashnet`](https://github.com/garythung/trashnet) and `Waste-set`:
 * Recyclable wastes:
     *  Plastic: 538
     * Paper/Cardboard: 616
@@ -24,9 +24,9 @@ The dataset includes 3495 images combined from selected data from [`Trashnet`](h
 * Organic wastes: 487
 * Non-recyclable wastes: 1005
 
-You can download the dataset [here]()
+You can download the dataset [here](https://drive.google.com/drive/folders/1hUY6GpxLOWvIM1tLDI8LoUQ_ktDp0mIl?fbclid=IwAR3rRosmKQEkzmxamvPTpGGwWTjEWes-7CGJR_SmUoRUj6poEOPRvGdhcXE)
 
-![This is an image]()
+<!-- ![This is an image]() -->
 
 ## Data Augmentation
 We use the ImageDataGenerator class1 from Keras to provide several transformations for generating new training data, such as rotation, zooming, translation, randomly flipping images horizontally, and filling new pixels with their nearest surround pixels.
@@ -38,6 +38,13 @@ ResNet50  | 82.12
 DenseNet121  | 83.26
 SWIN | 88.26
 
+### Resnet50
+Loss and accuracy visualzation
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/resnet_loss_acc_viz.png)
+
+### DenseNet121
+### SWIN
 ## Usage
 
 Clone the repository
