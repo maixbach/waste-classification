@@ -39,12 +39,34 @@ DenseNet121  | 83.26
 SWIN | 88.26
 
 ### Resnet50
-Loss and accuracy visualzation
+* Loss and accuracy visualzation
 
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/resnet_loss_acc_viz.png)
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_loss_acc_viz.png)
+
+* Confusion Matrix
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_confusion_matrix.png)
+
+* Classification report
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_class_report.jpg)
 
 ### DenseNet121
+* Loss and accuracy visualzation
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_loss_acc_viz.jpg)
+
+* Confusion Matrix
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_confusion_matrix.png)
+
+* Classification report
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_class_report.jpg)
 ### SWIN
+* Loss and accuracy visualzation
+* Confusion Matrix
+* Classification report
 ## Usage
 
 Clone the repository
@@ -53,4 +75,16 @@ Clone the repository
 $ git clone https://github.com/maixbach/waste-classification.git
 ```
 
+Change the models in `model.py` 
 
+```python
+model = load_model('Models/model_resnet.h5')
+```
+or 
+```python
+model = load_model('Models/model_densenet.h5')
+```
+or
+```python
+model = load_model('Models/model_swin.h5')
+```
