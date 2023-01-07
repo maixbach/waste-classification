@@ -34,9 +34,9 @@ We use the ImageDataGenerator class1 from Keras to provide several transformatio
 ## Experimental result
 Model         | Accuracy
 ------------- | -------------
-ResNet50  | 82.12
-DenseNet121  | 83.26
 SWIN | 88.26
+DenseNet121  | 83.26
+ResNet50  | 82.12
 
 ### Resnet50
 * Loss and accuracy visualzation
