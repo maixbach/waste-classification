@@ -86,5 +86,5 @@ model = load_model('Models/model_densenet.h5')
 ```
 or
 ```python
-model = load_model('Models/model_swin.h5')
+model = load_model('maixbach/swin-tiny-patch4-window7-224-finetuned-trash_classification')
 ```
