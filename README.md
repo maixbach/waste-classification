@@ -32,9 +32,9 @@ We use the ImageDataGenerator class1 from Keras to provide several transformatio
 ## Experimental result
 Model         | Accuracy
 ------------- | -------------
-ResNet50  | 82.12
-DenseNet121  | 83.26
 SWIN | 88.26
+DenseNet121  | 83.26
+ResNet50  | 82.12
 
 ## Usage
 
@@ -60,5 +60,5 @@ model = load_model('Models/model_swin.h5')
 
 ## Test Case
 ![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Test/case_1_2.png)
-
 ![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Test/case_3_4.png)
+

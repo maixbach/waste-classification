@@ -5,9 +5,19 @@ from keras.preprocessing.image import img_to_array
 from sklearn.preprocessing import LabelEncoder
 import numpy as np
 import time
+from transformers import AutoModelForImageClassification
 
+<<<<<<< HEAD
 # Load model
 model = load_model('model_densenet.h5')
+=======
+
+# Load model resnet or densenet
+model = load_model('model_5class_resnet_87%.h5')
+>>>>>>> ebc34853c4d2344c0dd87d521a06040c64e36662
+
+# Load model SWIN transformer
+model = AutoModelForImageClassification.from_pretrained("maixbach/swin-tiny-patch4-window7-224-finetuned-trash_classification")
 
 labels = ['G&M', 'Organic', 'Other', 'Paper', 'Plastic']
 le = LabelEncoder()
