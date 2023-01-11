@@ -7,7 +7,7 @@ import numpy as np
 import time
 
 # Load model
-model = load_model('model_5class_resnet_87%.h5')
+model = load_model('model_densenet.h5')
 
 labels = ['G&M', 'Organic', 'Other', 'Paper', 'Plastic']
 le = LabelEncoder()

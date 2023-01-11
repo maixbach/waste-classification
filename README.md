@@ -26,8 +26,6 @@ The dataset includes 3495 images combined from selected data from [`Trashnet`](h
 
 You can download the dataset [here](https://drive.google.com/drive/folders/1hUY6GpxLOWvIM1tLDI8LoUQ_ktDp0mIl?fbclid=IwAR3rRosmKQEkzmxamvPTpGGwWTjEWes-7CGJR_SmUoRUj6poEOPRvGdhcXE)
 
-<!-- ![This is an image]() -->
-
 ## Data Augmentation
 We use the ImageDataGenerator class1 from Keras to provide several transformations for generating new training data, such as rotation, zooming, translation, randomly flipping images horizontally, and filling new pixels with their nearest surround pixels.
 
@@ -38,35 +36,6 @@ ResNet50  | 82.12
 DenseNet121  | 83.26
 SWIN | 88.26
 
-### Resnet50
-* Loss and accuracy visualzation
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_loss_acc_viz.png)
-
-* Confusion Matrix
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_confusion_matrix.png)
-
-* Classification report
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Resnet50/resnet_class_report.jpg)
-
-### DenseNet121
-* Loss and accuracy visualzation
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_loss_acc_viz.jpg)
-
-* Confusion Matrix
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_confusion_matrix.png)
-
-* Classification report
-
-![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/DenseNet121/densenet_class_report.jpg)
-### SWIN
-* Loss and accuracy visualzation
-* Confusion Matrix
-* Classification report
 ## Usage
 
 Clone the repository
@@ -88,3 +57,8 @@ or
 ```python
 model = load_model('Models/model_swin.h5')
 ```
+
+## Test Case
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Test/case_1_2.png)
+
+![This is an image](https://github.com/maixbach/waste-classification/blob/main/images/Test/case_3_4.png)
